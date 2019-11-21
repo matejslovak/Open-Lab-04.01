@@ -18,7 +18,9 @@ namespace Open_Lab_04._01
 
         static void Main(string[] args)
         {
-            Console.WriteLine(DoubleLetters("woooooooooooooooow"));
+            string enter = Console.ReadLine();
+            Console.WriteLine(DoubleLetters(enter));
+
         }
     }
 }
